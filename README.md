@@ -2,6 +2,6 @@
 In this repository there are codes on different topics of python ,
 Manipulation of varibles on those topics,
 All topics are seperated for better view and access,
-Every steps highlighted with coomments inside the code for better understanding ,
+Every step is highlighted with comments inside the code for better understanding ,
 
-I will update this repository as i move along my topics.
+I will update this repo ,as i move along different topics.
