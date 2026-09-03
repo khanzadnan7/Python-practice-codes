@@ -16,10 +16,10 @@ donate = net_salary*donation #calculating 10% donation on net salary
 net_salary = net_salary-donate #subtracting donation from net salary
 
 #printing remaining  net salary after the expenses  upto desired decimal
-print("Net salary : ",net_salary)
-print("Net salary :",f"{net_salary:.3f}") #up to 3 decimal
+print(f"Net salary : ",net_salary)
+print(f"Net salary :",f"{net_salary:.3f}") #up to 3 decimal
 
 
 #amount of money given in donation
-print("Donation given to poor :",donate)
-print("Donation given to poor :",f"{donate:.2f}")#up to 2 decimal
+print(f"Donation given to poor :",donate)
+print(f"Donation given to poor :",f"{donate:.2f}")#up to 2 decimal
