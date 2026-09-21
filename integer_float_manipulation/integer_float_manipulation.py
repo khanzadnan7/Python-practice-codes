@@ -6,7 +6,6 @@ food = 400.5
 salary_tax = 0.2 #20%
 donation = 0.1 #10%
 
-
 #2.calculating net salary after the expenses
 #the tax is calculated on gross salary in real world ,its on same principle
 tax = gross_salary *salary_tax #tax variable for storing calculated taxed money on gross salary
