@@ -1,38 +1,44 @@
-step 1
-#creating a str variable for storing 12 unique letters.
+#string_manipulation--[indexing and slicing]--
 
-windows_serial_numbers = "abc-def-ghi-jkl"
+word="PROGRAMMING"
 
-step 2
-#making four new str variables and storing above letters in them equally.
-#replacing the existing letters into new letters
+#Q1. print "G" using indexing
+print(word[3])          #G
 
-leta = windows_serial_numbers[0:3].replace("abc", "aaa")
-letb = windows_serial_numbers[4:7].replace("def", "bbb")
-letc = windows_serial_numbers[8:11].replace("ghi", "ccc")
-letd = windows_serial_numbers[12:15].replace("jkl", "ddd")
+#Q2. print the first 4 characters 
+print(word[0:4])        #PROG
 
-#step3
-#making a new str variable and storing the altered value of above four variable into it.
-#printing the new altered code on the display without changing the value of original str variable
+#Q3. print GRAM
+print(word[3:7])        #GRAM
 
-encoded_new_serial_numbers=leta+"-"+letb+"-"+letc+"-"+letd
-print(encoded_new_serial_numbers)
+#Q4.print the last 4 characters
+print(word[7:])         #MING
 
-#string slicing 
-#text=[start:stop]
+#Q5. print the string backword
+print(word[::-1])       #GNIMMARGORP
+#------------------------------------------------------------------------------#
+#Q6 print the word "COMPUTER" in 2 parts first line - COM ,next line - PUTER 
 
-word= "elephant" 
-print("current word -",word)
+word2="COMPUTER"
 
-print("1)after slicing -",word[::-1]) #reverse the string
-print("2)after slicing -",word[2:]) #remove the starting alphabate upto the index number -1
-print("3)after slicing -",word[::2])
-print("4)after slicing -",word[:4])
-print("5)after slicing -",word[0:4])
+print(word2[0:3])       #COM
+print(word2[3:])        #PUTER
 
-word ="o" + word[1:]
-print("after slicing" , word)
+#Q7 only using indexing and slicing 
+# print[PYTHON,NOHTYP,PROGRAMMING,GNIMMARGORP]
 
-word= word.replace("ele","lel")
-print(word)
+word3="PYTHONPROGRAMMING"
+
+print(word3[0:6])       #PYTHON {using slicing}
+print(word3[5::-1])     #NOHTYP {slicing with steps [strt:stop:step]}
+print(word3[6:])        #PROGRAMMING {using slicing }
+print(word3[:-12:-1])   #GNIMMARGORP {reversing desired word only}
+
+#Q8 print exactly [ABCD,MLKJ,EFGHI,IJK]
+
+word4="ABCDEFGHIJKLM"
+
+print(word4[0:4])       #ABCD
+print(word4[12:8:-1])   #MLKJ
+print(word4[4:9])       #EFGHI
+print(word4[8:11])      #IJK
