@@ -86,3 +86,12 @@ print(sentence0.find("Python"))     #finds the index of first python
 print(sentence0.startswith("I"))    #check if sentence starts with "I"
 print(sentence0.endswith("interesting"))    #chek if sentence ends with "interesting"
 print(sentence0.replace("Python","Java"))   #replacing the word python with java 
+
+#combination question of string method and string manipulation 
+text = "  PyThOn PrOgRaMmInG 123  "
+
+
+print(text.strip().upper()[5::-1])  #NOHTYP
+print(text.strip().upper()[0:18])   #PYTHON PROGRAMMING
+print(text.strip()[-3:])            #123
+print(text.strip().upper().startswith("PYTHON"))    #True
