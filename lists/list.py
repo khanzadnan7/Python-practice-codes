@@ -89,3 +89,28 @@ program.pop(0)
 program.pop(3)
 
 print(program)
+
+# removing item using pop() without index 
+program = ["Python", "Java", "C++", "JavaScript", "PHP", "Ruby"]
+
+program.pop() # removes the last item from the list 
+print(program)
+
+program = ["Python", "Java", "C++", "JavaScript", "PHP", "Ruby"]
+
+removed = program.pop() # stores the last item removed item to a variable 
+print(removed) 
+
+
+program = ["Python", "Java", "C++", "JavaScript", "PHP", "Ruby"]
+
+stored1 = program.pop() # storing the last removed item in the variable 
+stored2 = program.pop() # storing the next removed item in a different variable to prevent overwriting
+print(stored1,stored2)  # print both removed value 
+
+# removing all items from the list 
+program = ["Python", "Java", "C++", "JavaScript", "PHP", "Ruby"]
+
+program.clear() #it doesnt delete the list it just empty the list 
+print(program)
+print(len(program)) # thats why this will print 0 instead of giving error
