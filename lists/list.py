@@ -111,6 +111,53 @@ print(stored1,stored2)  # print both removed value
 # removing all items from the list 
 program = ["Python", "Java", "C++", "JavaScript", "PHP", "Ruby"]
 
-program.clear() #it doesnt delete the list it just empty the list 
+program.clear() # it doesnt delete the list , it just empty the list 
 print(program)
 print(len(program)) # thats why this will print 0 instead of giving error
+
+#------------------------------------------------------------------------------------------------------
+# List Combination Practice
+
+programs = ["Python", "Java", "C++", "JavaScript", "PHP"]
+
+# print JavaScript
+
+print(programs[3])
+
+# print PHP
+
+print(programs[-1])
+
+# print "Java", "C++", "JavaScript"
+
+print(programs[1:4])
+
+# reverse the entire list and print it 
+
+print(programs[::-1])
+
+# change "Java" to "kotlin"
+
+programs[1] = "Kotlin"
+programs[4] = "Ruby"
+
+# add "Go" to the list
+
+programs.append("Go")
+
+# add "C" to the index 2
+
+programs.insert(2,"C")
+
+#remove JavaScript from the list
+
+programs.remove("JavaScript")
+
+#remove the element at index 0
+
+programs.pop(0)
+
+#print the current list and length of the list
+
+print(programs)
+print(len(programs))
