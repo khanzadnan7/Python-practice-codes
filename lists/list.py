@@ -161,3 +161,31 @@ programs.pop(0)
 
 print(programs)
 print(len(programs))
+
+languages = ["Python","Java","C++","PHP"]
+
+print("Java" in languages) # in checks if something is present or not ,returns boolean
+
+print("Go" in languages) #return false because Go is not in the list named languages
+
+print("Go" not in languages) #returns opposite 
+
+# check whether :
+# Python exists
+# Ruby exists
+# Ruby does not exist
+# JavaScript exists
+# Add Ruby only if it isnt already there on the list
+
+print("Python" in languages)
+print("Ruby" in languages)
+print("Ruby" not in languages)
+print("JavaScript" in languages)
+
+if "Ruby" in languages:
+    print ("already present")
+    print(languages)
+else:
+    languages.append("Ruby") 
+    print("done")
+    print(languages)
