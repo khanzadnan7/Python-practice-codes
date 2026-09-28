@@ -108,17 +108,22 @@ else:
     print("Cold")
 
 # Delivery fee calculator
+# 0–2          "Free delivery"
+# 3–5          "Delivery fee: 30"
+# 6–10         "Delivery fee: 50"
+# 11–20        "Delivery fee: 80"
+# above 20     "Delivery unavailable"
 
 distance = 12
 
 if distance <=2:
     print("Free Delivery")
 elif distance <=5:
-    print("Delivery fee: ₹30")
+    print("Delivery fee: 30")
 elif distance <=10:
-    print("Delivery fee: ₹50")
+    print("Delivery fee: 50")
 elif distance <=20:
-    print("Delivery fee: ₹80")
+    print("Delivery fee: 80")
 else:
     print("Delivery unavailable")
 
