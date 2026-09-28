@@ -96,7 +96,7 @@ else :
 
 # temprature
 
-temprature = 21
+temprature = 25
 
 if temprature >= 30:
     print("Hot")
@@ -106,3 +106,19 @@ elif temprature >=10:
     print("Cool")
 else:
     print("Cold")
+
+# Delivery fee calculator
+
+distance = 12
+
+if distance <=2:
+    print("Free Delivery")
+elif distance <=5:
+    print("Delivery fee: ₹30")
+elif distance <=10:
+    print("Delivery fee: ₹50")
+elif distance <=20:
+    print("Delivery fee: ₹80")
+else:
+    print("Delivery unavailable")
+
