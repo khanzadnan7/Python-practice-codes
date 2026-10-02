@@ -15,12 +15,21 @@ Each topic is organized into separate directories for better readability and nav
 
 📚 Topics Covered
 
-Topic	Status
-Integer & Float Manipulation	In Progress
-String Manipulation	In Progress
-Boolean Logic	Upcoming
-Conditional Statements	Upcoming
-Lists & Data Structures	Upcoming
+Topic	                            Status
+
+Integer & Float Manipulation	    done
+String Manipulation                 done
+Lists                               done
+Conditional Statements              done
+python loops                        in progress
+List deeper operation               upcomming
+Tuples and sets                     upcomming
+functions                           upcomming
+Modules and import                  upcomming
+Exception handling                  upcomming
+File handling                       upcomming
+Object-Oriented Programming (OOP)   upcomming
+Mini projects                       upcomming
 
 This section will evolve as new topics are completed and added.
 
