@@ -28,10 +28,14 @@ functions                           upcomming
 Modules and import                  upcomming
 Exception handling                  upcomming
 File handling                       upcomming
-Object-Oriented Programming (OOP)   upcomming
+Object-Oriented Programming (OOPs)  upcomming
 Mini projects                       upcomming
+learning ml libraries               upcomming
+Data Science project                updomming
+personal project                    upcomming 
 
 This section will evolve as new topics are completed and added.
+
 
 🚀 What’s Next?
 
@@ -43,4 +47,4 @@ As I advance, this repository will grow to include more complex implementations,
 
 Understand the logic. Practice consistently. Build something meaningful.
 
-Thanks for visiting! 😊
+Thanks for visiting! 
