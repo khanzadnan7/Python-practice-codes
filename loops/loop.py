@@ -67,3 +67,22 @@ while start <= 15:
         continue
     print(start)
     start += 1
+
+# write a program that :
+# examines every element in the list 
+# skips values that are not positive
+# display only positive value
+
+number = [12,-5,8,-2,0,15,-7,20]
+i=0
+box=len(number)
+
+while (box>0):
+    if number[i]>0:
+        print(number[i])
+
+
+
+
+    i+=1
+    box -=1
