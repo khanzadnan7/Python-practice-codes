@@ -102,3 +102,64 @@ for x in range(1,31):
     if x % 2 == 0:
         print(x)
 
+# write a program that goes through the numbers from 1 to 50 and displays the first 5 numbers that are divisible by 4
+box=0
+for x in range(1,51):
+    if box == 5:
+        break
+    if x % 4 == 0:
+        print(x)
+        box +=1
+
+# Go through the numbers from 1 to 100. Display the first 5 numbers that are divisible by 6 but not divisible by 4
+
+box=0
+for x in range(1,101):
+    if x % 6 == 0 and x % 4 != 0:
+        print(x)
+        box+=1
+    if box == 5:
+        break
+
+# given list :
+
+numbers = [12, -4, 7, 18, -9, 25, 30, 11, -2, 40, 15,0]
+
+# ignore negative numbers
+# ignore numbers that are divisible by 3
+# count the remaining numbers
+# stop once you have found 4 such numbers
+# display each number that qualifies
+
+print("here")
+box=0
+for x in numbers:
+    if x <0 or x % 3 == 0:
+        continue
+    print(x)
+    box+=1
+    if box == 4:
+        break
+
+# given list :
+
+numbers = [5, 12, 3, 8, 21, 16, 7, 24, 10, 15, 32, 9]
+
+# find and display the first 3 positive numbers that are even and not divisible by 3
+box=0
+for x in numbers:
+    if x % 2 == 0 and x % 3 != 0:
+        print(x)
+        box+=1
+    if box == 3:
+        break
+
+# Write a for loop that goes through the numbers from 1 to 10.
+# If the number is even, do nothing for now
+# If the number is odd, display it
+
+for x in range(1,11):
+    if x % 2 == 0:
+        pass 
+    else:
+        print(x)
