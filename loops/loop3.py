@@ -6,6 +6,7 @@ for x in range(1,5):
 
 # Write a program using nested for loops that examines the numbers from 1 to 5 for x and 1 to 5 for y
 # Display only the pairs where x + y is even.
+
 for x in range(1,6):
     for y in range(1,6):
         if (x+y)%2 == 0:
@@ -22,11 +23,9 @@ for x in numbers:
             print(x,y)
 
 # given list :
-
-numbers = [3, 7, 12, 5, 18, 21, 9, 24, 11]
-
 # find the first number in the list that is greater than 10 and divisible by 3, display it, and then stop searching
 
+numbers = [3, 7, 12, 5, 18, 21, 9, 24, 11]
 for x in numbers:
     if x > 10 and x % 3 == 0:
         print(x)
@@ -34,11 +33,9 @@ for x in numbers:
 
 
 # given that :
-
-numbers = [4, 25,-3, 10, 7, -8, 15, 2, 21, 6]
-
 # write a program that displays the positive odd numbers in this list, but stops searching when it encounters the number 15
 
+numbers = [4, 25,-3, 10, 7, -8, 15, 2, 21, 6]
 for x in numbers:
     if x == 15:
         break
