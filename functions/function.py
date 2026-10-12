@@ -101,3 +101,39 @@ result0=power(2,3)
 
 print(result)
 print(result0)
+
+# define student(name,course) that prints boht value cal it using keyword argument in reverse order
+
+def student(name,course):
+    print(name,course)
+
+
+student(course="DS-AI",name="adnan")
+
+# Define calculate(a, b, operation) that prints the sum of a and b,
+# Call it using a mix of positional and keyword arguments
+
+def calculate(a,b,operation):
+    print(a+b,operation)
+
+
+calculate(20,operation="add",b=10)
+
+# Define show_details(name, age, city) that prints all three values. Call it twice: once using only positional arguments, and once using only keyword arguments in a different order.
+
+def show_details(name,age,city):
+    print(name,age,city)
+
+show_details("adnan",23,"japan")
+show_details(age=23,city="japan",name="adnan")
+
+
+# using args to calculate desired numbers of variables
+
+def add_all(*nunnu):
+    total = 0
+    for numb in nunnu:
+        total += numb
+    return total
+show = add_all(10,20)
+print(show)
