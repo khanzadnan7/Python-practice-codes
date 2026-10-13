@@ -137,3 +137,40 @@ def add_all(*nunnu):
     return total
 show = add_all(10,20)
 print(show)
+
+# Write a function show_numbers(*args) that prints all the arguments it receives. Call it with two numbers, four numbers, and one number.
+
+def show_num(*args):
+    print(*args)
+
+show_num(50,20)
+show_num(5,9,8,7)
+show_num(7)
+
+# write a function multiply_all(*args) that returns the product of all the numbers passed to it. Test it with three numbers and five numbers
+
+def multiply_all(*num):
+    result = 1
+    for x in num:
+        result *= x
+    return result
+
+show=multiply_all(1,3,5)
+print(show)
+show0=multiply_all(2,3,4,5)
+print(show0)
+
+# Write a function count_numbers(*args) that counts how many arguments are even. Return the count and test it with a mixture of positive, negative, odd, and even integers
+
+
+
+def count_number(*args):
+    box = 0
+    for x in args:
+        if x % 2 == 0:
+            box +=1
+    return box
+
+
+show=count_number(1,5,-9,8,6,-2,4,0,20,-5,28,99,37,12)
+print(show)
