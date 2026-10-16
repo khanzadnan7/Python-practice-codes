@@ -174,3 +174,30 @@ def count_number(*args):
 
 show=count_number(1,5,-9,8,6,-2,4,0,20,-5,28,99,37,12)
 print(show)
+
+# write a fuction called show_details that prints every key and value passed to it
+
+def show_details(**kwargs):
+    for key,value in kwargs.items():
+        print(key,":",value)
+
+show_details(name="adnan", age="23")
+show_details(name="john", age="24" ,city="new york", course="biotech")
+
+# write a function named get_value that :
+# Accepts any number of keyword arguments
+# Accepts an additional parameter named key
+# Returns the value associated with that key if it exists
+# Returns "Key not found" if the key doesn't exist
+
+def get_value(key,**kwargs):
+    if key in kwargs:
+        return kwargs[key]
+    else:
+        return "key not found"
+
+
+print(get_value("name" , name="adnan",age=24,city="lucknow",course="ds ai"))
+print(get_value("age",name="soso",city="korea",course="biotech"))
+
+
